@@ -86,26 +86,13 @@ const Login = () => {
                     </p>
 
                     <div className="flex items-center gap-6 pt-4">
-                        <div className="text-center">
-                            <p className="text-3xl font-bold text-white">10k+</p>
-                            <p className="text-white/60 text-sm">Active Users</p>
-                        </div>
                         <div className="w-px h-12 bg-white/20" />
-                        <div className="text-center">
-                            <p className="text-3xl font-bold text-white">50k+</p>
-                            <p className="text-white/60 text-sm">Tasks Completed</p>
-                        </div>
+
                         <div className="w-px h-12 bg-white/20" />
-                        <div className="text-center">
-                            <p className="text-3xl font-bold text-white">99%</p>
-                            <p className="text-white/60 text-sm">Satisfaction</p>
-                        </div>
+
                     </div>
                 </div>
 
-                <div className="relative z-10">
-                    <p className="text-white/50 text-sm">© 2024 TaskFlow. All rights reserved.</p>
-                </div>
             </div>
 
             {/* Right side - Form */}

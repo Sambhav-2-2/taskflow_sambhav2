@@ -4,19 +4,7 @@
 
 TaskFlow is a modern, full-stack task management application that helps individuals and small teams efficiently organize, track, and manage their daily tasks and responsibilities. Built with a focus on user experience, security, and reliability, TaskFlow provides a clean, intuitive interface for managing tasks with features like categorization, priority levels, due dates, and comprehensive statistics.
 
-![TaskFlow Dashboard](./docs/dashboard-preview.png)
-
-## 🚀 Live Demo
-
-- **Frontend**: [TaskFlow App](https://taskflow-app.vercel.app)
-- **Backend API**: [TaskFlow API](https://taskflow-api.vercel.app)
-- **API Documentation**: [Swagger Docs](https://taskflow-api.vercel.app/api-docs)
-
-## 🎥 Video Demo
-
-[Watch the 2-3 minute demo video](https://www.loom.com/share/your-video-id)
-
-## 🛠️ Tech Stack
+##  Tech Stack
 
 ### Frontend
 - **Framework**: React 18 with Vite
@@ -46,32 +34,32 @@ TaskFlow is a modern, full-stack task management application that helps individu
 ## ✨ Features Implemented
 
 ### Core Features
-- ✅ User Registration & Login
-- ✅ JWT-based Authentication
-- ✅ Protected Routes
-- ✅ Create, Read, Update, Delete Tasks
-- ✅ Task Categories/Tags
-- ✅ Task Priority Levels (High, Medium, Low)
-- ✅ Due Date Functionality
-- ✅ Task Status (Pending, In Progress, Completed)
+-  User Registration & Login
+-  JWT-based Authentication
+-  Protected Routes
+-  Create, Read, Update, Delete Tasks
+-  Task Categories/Tags
+-  Task Priority Levels (High, Medium, Low)
+-  Due Date Functionality
+-  Task Status (Pending, In Progress, Completed)
 
 ### Dashboard Features
-- ✅ Task Statistics Dashboard
-- ✅ Filter by Status, Priority, Category
-- ✅ Search Functionality
-- ✅ Quick Add Task Form
-- ✅ Visual Task Analytics
+-  Task Statistics Dashboard
+-  Filter by Status, Priority, Category
+-  Search Functionality
+-  Quick Add Task Form
+-  Visual Task Analytics
 
 ### UI/UX Features
-- ✅ Responsive Design (Mobile, Tablet, Desktop)
-- ✅ Dark/Light Mode Support
-- ✅ Loading States & Skeleton Loaders
-- ✅ Toast Notifications
-- ✅ Form Validation
-- ✅ Error Handling
-- ✅ Smooth Animations & Transitions
+-  Responsive Design (Mobile, Tablet, Desktop)
+-  Dark/Light Mode Support
+-  Loading States & Skeleton Loaders
+-  Toast Notifications
+-  Form Validation
+-  Error Handling
+-  Smooth Animations & Transitions
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 taskflow/
@@ -103,7 +91,7 @@ taskflow/
 └── README.md
 ```
 
-## 🚀 Setup Instructions
+##  Setup Instructions
 
 ### Prerequisites
 - Node.js (v16 or higher)
@@ -114,8 +102,8 @@ taskflow/
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/yourusername/taskflow.git
-   cd taskflow
+   git clone https://github.com/Sambhav-2-2/taskflow_sambhav2.git
+   cd taskflow_sambhav2
    ```
 
 2. **Navigate to server directory**
@@ -136,7 +124,7 @@ taskflow/
 5. **Configure environment variables**
    ```env
    PORT=5000
-   JWT_SECRET=your-super-secret-jwt-key-change-in-production
+   JWT_SECRET=yoursecret
    JWT_EXPIRES_IN=7d
    NODE_ENV=development
    ```
@@ -181,7 +169,7 @@ The server will start on `http://localhost:5000`
 
 The frontend will start on `http://localhost:5173`
 
-## 📊 Database Schema
+##  Database Schema
 
 ### Users Table
 ```sql
@@ -212,7 +200,7 @@ CREATE TABLE tasks (
 );
 ```
 
-## 📚 API Documentation
+##  API Documentation
 
 ### Authentication Endpoints
 
@@ -263,9 +251,9 @@ Content-Type: application/json
 }
 ```
 
-For complete API documentation, visit `/api-docs` on the running server or see [API Documentation](./docs/api-docs.md).
 
-## 🎯 Challenges and Solutions
+
+##  Challenges and Solutions
 
 ### Challenge 1: Real-time Statistics Update
 
@@ -296,7 +284,7 @@ This approach maintained full functionality across all device sizes while provid
 4. Added loading states during authentication checks to prevent flash of unauthenticated content
 5. Protected routes that redirect to login when no valid token is present
 
-## 🔮 Future Enhancements
+##  Future Enhancements
 
 - [ ] Task sharing and collaboration
 - [ ] Email notifications for due dates
@@ -307,18 +295,10 @@ This approach maintained full functionality across all device sizes while provid
 - [ ] Dark mode toggle
 - [ ] Export tasks to CSV/PDF
 
-## 📄 License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👤 Author
+##  Author
 
 **Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your LinkedIn](https://linkedin.com/in/yourprofile)
+- GitHub: [@Sambhav-2-2](https://github.com/Sambhav-2-2)
 
-## 🙏 Acknowledgments
-
-- Design inspiration from modern productivity apps
-- Icons from Lucide React
-- UI components styled with Tailwind CSS
